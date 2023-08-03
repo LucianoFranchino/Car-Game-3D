@@ -481,10 +481,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 194810, guid: 09082afec7b5e824ca611a0cc3264bcd, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1526876062}
+      addedObject: {fileID: 1526876063}
     - targetCorrespondingSourceObject: {fileID: 194810, guid: 09082afec7b5e824ca611a0cc3264bcd, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1526876063}
+      addedObject: {fileID: 1526876062}
   m_SourcePrefab: {fileID: 100100000, guid: 09082afec7b5e824ca611a0cc3264bcd, type: 3}
 --- !u!1001 &974359749
 PrefabInstance:
@@ -672,10 +672,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58cc39490b92d8f4bbb6da58981d7cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
-  turnSpeed: 25
-  horizontalIn: 0
-  fowardIn: 0
+  aceleration: 10
+  maxSpeed: 50
+  currentSpeed: 0
+  brakeFroce: 30
+  turnSpeed: 40
+  maxTurnAngle: 45
 --- !u!54 &1526876063
 Rigidbody:
   m_ObjectHideFlags: 0
